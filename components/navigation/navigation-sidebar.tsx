@@ -10,6 +10,10 @@ import { db } from "@/lib/db"
 import { NavigationAction } from "./navigation-action"
 import { NavigationItem } from "./navigation-item"
 
+// Hulk
+
+const myFunc = () => {}
+
 export const NavigationSideBar = async () => {
   const profile = await currentProfile()
 
