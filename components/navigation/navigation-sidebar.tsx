@@ -10,9 +10,14 @@ import { db } from "@/lib/db"
 import { NavigationAction } from "./navigation-action"
 import { NavigationItem } from "./navigation-item"
 
+
 // Hulk
 
-const myFunc = () => {}
+
+
+const myFunc = () => {
+  
+}
 
 export const NavigationSideBar = async () => {
   const profile = await currentProfile()
@@ -65,7 +70,7 @@ export const NavigationSideBar = async () => {
           afterSignOutUrl="/"
           appearance={{
             elements: {
-              avatarBox: "h-[48px] w-[52px]"
+              avatarBox: "h-[48px] w-[48px]"
             }
           }}
         />
