@@ -5,8 +5,9 @@ const MainLayout = async ({ children }: {
 }) => {
   return (
     <div className="h-full okoklh">
+      {/* Fixed */}
       <div
-        className="hidden md:flex h-full w-[73px] z-30 flex-col fixed inset-y-0"
+        className="hidden md:flex h-full w-[72px] z-30 flex-col inset-y-0"
       >
         <NavigationSideBar />
       </div>
