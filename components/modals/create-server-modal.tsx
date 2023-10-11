@@ -108,7 +108,7 @@ export const CreateServerModal = () => {
                   <FormItem>
                     {/* Uppercase */}
                     <FormLabel
-                      className="uppercase text-xs font-bold text-zinc-500 dark:text-secondary/80"
+                      className="uppercase text-xs font-bold text-zinc-400 dark:text-secondary/80"
                     >
                       Server name
                     </FormLabel>
