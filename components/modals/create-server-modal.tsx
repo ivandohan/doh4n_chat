@@ -77,7 +77,7 @@ export const CreateServerModal = () => {
             Customize your server
           </DialogTitle>
           <DialogDescription className="text-center text-zinc-500">
-            Give your server a personality with a name and an image. You can always change it later.
+            Give your server a personality with a name and an image. You can always change it later. *
           </DialogDescription>
         </DialogHeader>
         <Form {...form}>
@@ -106,7 +106,7 @@ export const CreateServerModal = () => {
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    {/* Uppercase */}
+                    {/* Uppercase 400 */}
                     <FormLabel
                       className="uppercase text-xs font-bold text-zinc-400 dark:text-secondary/80"
                     >
